@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Engr Muhammad Umer Farooque</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="header">
+        <h1>Engr. Muhammad Umer Farooque</h1>
+
+        <p>
+            <a href="tel:+923331286601" class="contact-link">+92 333 1286601</a> |
+
+            <a href="mailto:muhammadumer@gmail.com" class="contact-link">muhammadumer@gmail.com</a> |
+
+            <a href="https://linkedin.com" target="_blank" class="contact-link">LinkedIn</a> |
+
+            <a href="#" class="contact-link">Portfolio</a>
+        </p>
+
+        <button class="toggle-btn" onclick="toggleMode()">Dark</button>
+    </div>
+
+    <div class="container">
+
+        <!-- SUMMARY -->
+        <div class="section fade">
+            <h2>Summary</h2>
+            <div class="card">
+                IT Instructor and Software Developer with 3+ years of experience in frontend and backend development and
+                academic instruction. Strong expertise in teaching programming, software development concepts, and
+                applying Outcome-Based Education (OBE).
+            </div>
+        </div>
+
+        <!-- SKILLS -->
+        <div class="section fade">
+            <h2>Technical Skills</h2>
+            <div class="card">
+
+                <div class="skills-category">
+                    <h4>Frontend</h4>
+                    <div class="skills">
+                        <span class="skill">HTML</span>
+                        <span class="skill">CSS</span>
+                        <span class="skill">JavaScript</span>
+                        <span class="skill">Bootstrap</span>
+                        <span class="skill">jQuery</span>
+                        <span class="skill">React</span>
+                    </div>
+                </div>
+
+                <div class="skills-category">
+                    <h4>Backend</h4>
+                    <div class="skills">
+                        <span class="skill">PHP</span>
+                        <span class="skill">Laravel MVC</span>
+                        <span class="skill">C#</span>
+                        <span class="skill">Python</span>
+                        <span class="skill">.NET</span>
+                    </div>
+                </div>
+
+                <div class="skills-category">
+                    <h4>UI/UX</h4>
+                    <div class="skills">
+                        <span class="skill">Figma</span>
+                        <span class="skill">Balsamiq</span>
+                    </div>
+                </div>
+
+                <div class="skills-category">
+                    <h4>Database</h4>
+                    <div class="skills">
+                        <span class="skill">MySQL</span>
+                        <span class="skill">SQL Server</span>
+                        <span class="skill">MongoDB</span>
+                    </div>
+                </div>
+
+                <div class="skills-category">
+                    <h4>Project Management</h4>
+                    <div class="skills">
+                        <span class="skill">Jira</span>
+                        <span class="skill">Trello</span>
+                        <span class="skill">GitHub</span>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- EXPERIENCE -->
+        <div class="section fade">
+            <h2>Experience</h2>
+            <div class="card">
+
+                <div class="job">
+                    <h3>Junior Lecturer – Sir Syed University of Engineering</h3>
+                    <span>13-Oct-2025 – Present</span>
+                    <ul>
+                        <li>Delivered Programming Fundamentals and OOP using C# and Python.</li>
+                        <li>Designed OBE-based lesson plans with CLO-PLO mapping.</li>
+                        <li>Developed assessments, quizzes, and exams.</li>
+                        <li>Used problem-based learning and real-world examples.</li>
+                    </ul>
+                </div>
+
+                <div class="job">
+                    <h3>Faculty – Aptech Computer Education North Karachi</h3>
+                    <span>13-Jan-2024 – 12-Oct-2025</span>
+                    <ul>
+                        <li>Taught Full Stack Development (HTML, CSS, JS, React, PHP, Laravel).</li>
+                        <li>Delivered UI/UX training using Figma and Balsamiq.</li>
+                        <li>Guided students in MySQL, SQL Server, MongoDB.</li>
+                        <li>Trained tools: Jira, Trello, GitHub.</li>
+                        <li>Conducted assessments and contributed to events.</li>
+                    </ul>
+                </div>
+
+                <div class="job">
+                    <h3>Frontend Developer – Coderxone</h3>
+                    <span>10-Feb-2023 – 23-Nov-2023</span>
+                    <ul>
+                        <li>Collected requirements and created user stories.</li>
+                        <li>Designed UI in Figma.</li>
+                        <li>Developed websites using HTML, CSS, JavaScript.</li>
+                        <li>Maintained client communication and updates.</li>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- PROJECTS -->
+        <div class="section fade">
+            <h2>Projects</h2>
+            <div class="card">
+                <strong>Frontend Projects:</strong>
+                <div class="project">Real Estate Website</div>
+                <div class="project">Floral Decorations</div>
+                <div class="project">FunZone Amusement</div>
+                <div class="project">Therapy Clinic</div>
+                <div class="project">Restaurant Website</div>
+
+                <br>
+                <strong>Backend PHP Projects:</strong>
+                <div class="project">Movie Booking App</div>
+                <div class="project">Hospital Management App</div>
+                <div class="project">Lawyer Management App</div>
+                <div class="project">Restaurant Ordering System</div>
+                <div class="project">Spotify App</div>
+            </div>
+        </div>
+
+        <!-- EDUCATION -->
+        <div class="section fade">
+            <h2>Education</h2>
+            <div class="card">
+                <p><strong>MS Software Engineering</strong> – Bahria University | 12-Feb-2025 – In Progress</p>
+                <p><strong>BS Software Engineering</strong> – Bahria University | 19-Sept-2019 – 20-July-2023</p>
+            </div>
+        </div>
+
+        <!-- COURSE -->
+        <div class="section fade">
+            <h2>Short Course</h2>
+            <div class="card">
+                English Language Summer Course – Solent University Southampton | June 2018
+            </div>
+        </div>
+
+    </div>
+
+    <script>
+        function toggleMode() {
+            document.body.classList.toggle("dark");
+            document.querySelector(".toggle-btn").innerText =
+                document.body.classList.contains("dark") ? "Light" : "Dark";
+        }
+    </script>
+
+</body>
+
+</html>
